@@ -21,7 +21,7 @@ Clean Object-Oriented Programming (OOP) architecture
 
 ▶️ How to Run
 Make sure you have Python 3.x installed. Then:
-git clone https://github.com/yourusername/turtle-crossing.git
+git clone https://github.com/bunyaminenis/turtle-crossing.git
 cd turtle-crossing
 python main.py
 
