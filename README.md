@@ -28,9 +28,9 @@ A Streamlit-based AI dashboard for analyzing customer reviews using sentiment an
 
 ## 🧰 Getting Started
 
-### 1. Clone the Repository
+### Clone the Repository
 
-```bash
+bash
 git clone https://github.com/bunyaminenis/Smart-Review-Analyzer.git
 cd smart-review-analyzer
 
@@ -59,7 +59,7 @@ Export results as PDF
 Deploy to Streamlit Cloud or HuggingFace Spaces
 
 🧑‍💻 Author
-Your Name – @bunyaminenis
+@bunyaminenis
 
 📃 License
 This project is licensed under the MIT License.
