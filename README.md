@@ -15,13 +15,21 @@ Displays real-time feedback and running score
 Demonstrates class interaction, object creation, and user input handling
 
 📁 Project Structure
+
 📦 quiz-game/
+
 ├── data.py              # Contains the trivia question dataset
+
 ├── example.py           # Example class demonstrating OOP: follow system between users
+
 ├── main.py              # Entry point; runs the quiz
+
 ├── question_model.py    # Defines the Question class
+
 ├── quiz_brain.py        # Manages quiz logic and flow
+
 🛠️ How It Works
+
 data.py: Stores a list of True/False trivia questions as dictionaries.
 
 question_model.py: Contains the Question class which wraps each question and its correct answer.
@@ -33,6 +41,7 @@ main.py: Initializes question objects, creates the quiz instance, and starts the
 example.py: An extra example that demonstrates class relationships and method calls using a social follow feature.
 
 🧪 Example Game Flow
+
 Question 1: A slug's blood is green.
 Is that True or False? true
 Answer is right
@@ -50,7 +59,7 @@ No external libraries are needed—just run it with the Python interpreter.
 
 ▶️ Getting Started
 # Clone the repository
-git clone https://github.com/yourusername/quiz-game.git
+git clone https://github.com/bunyaminenis/quiz-game.git
 cd quiz-game
 
 # Run the quiz
