@@ -30,31 +30,46 @@ dotenv: For managing environment variables
 📁 Project Structure
 
 📦 billboard-to-spotify/
+
 ├── main.py         # Main script
+
 ├── .env            # Stores Spotify API keys (ignored by git)
+
 ├── token.txt       # Spotify OAuth token cache
+
 ├── song.txt        # Output of scraped Billboard songs
 
 
 ▶️ How to Use
 1. Clone the repository
-   git clone https://github.com/yourusername/billboard-to-spotify.git
-cd billboard-to-spotify
+
+   git clone https://github.com/bunyaminenis/billboard-to-spotify.git
+   
+   cd billboard-to-spotify
 
 2. Install dependencies
+   
    pip install -r requirements.txt
+   
    If requirements.txt doesn’t exist, just install manually:
+   
    pip install spotipy beautifulsoup4 requests python-dotenv
    
 3. Create your .env file
 
-  Inside your project folder, create a .env file:
-  CLIENT_ID=your_spotify_client_id
-  CLIENT_SECRET=your_spotify_client_secret
-  REDIRECT_URI=https://example.com/callback
-  USERNAME=your_spotify_username
+     Inside your project folder, create a .env file:
+  
+     CLIENT_ID=your_spotify_client_id
+  
+     CLIENT_SECRET=your_spotify_client_secret
+  
+     REDIRECT_URI=https://example.com/callback
+  
+     USERNAME=your_spotify_username
+  
 4. Run the script
-  python main.py
+   
+     python main.py
   
 
 🧪 Example
