@@ -1,92 +1,102 @@
-# Blog-Last
+# 🧠 Tutorials, Practices & Demo Projects
 
-A Flask-based personal blog web application where users can create, edit, and manage blog posts.  
-This project demonstrates how to build a dynamic blog with a SQLite database, Flask-WTF forms, Bootstrap styling, and a rich-text editor (CKEditor).
+This repository is a curated collection of my hands-on work while learning and building with Python, backend development, and automation tools.
 
----
-
-## ✨ Features
-
-- 📝 **CRUD Operations**: Create, Read, Update, and Delete blog posts.
-- 🎨 **Rich Text Editing**: Blog body content powered by CKEditor for formatting.
-- 📅 **Auto Timestamp**: Posts include the current date automatically.
-- 🌐 **Pages**:
-  - **Home** – Displays all blog posts stored in the database.
-  - **Single Post View** – Shows full post details with edit option.
-  - **Make/Edit Post** – Form to create new or update existing posts.
-  - **Delete Post** – Remove posts directly from the database.
-  - **About Page** – Static information page.
-  - **Contact Page** – Includes a styled contact form (no email integration).
-- 💅 **Responsive UI**: Integrated with Bootstrap 5 templates for clean design.
+Instead of keeping projects scattered across multiple repositories, I consolidated them here into a structured monorepo to better reflect my learning journey and technical growth over time.
 
 ---
 
-## 🛠️ Technologies Used
+## 🚀 About Me
 
-- **Flask** – Backend web framework
-- **Flask-Bootstrap** – Bootstrap 5 integration
-- **Flask-WTF** – Form handling & validation
-- **Flask-CKEditor** – Rich text editor for blog posts
-- **SQLAlchemy** – ORM with SQLite database
-- **WTForms** – Form creation & validation
+* 🎓 B.Sc. in Software Engineering
+* 💡 Aspiring AI / Machine Learning Engineer
+* 🧠 Strong interest in backend systems, automation, and data-driven applications
+* 🌏 Open to international opportunities
 
 ---
 
-## 📂 Project Structure
+## 📂 Repository Structure
 
-blog-last/
+### 🧩 Projects (Full Applications)
 
-│── main.py # Application entry point & routes
+Real-world inspired applications with multiple components.
 
-│── templates/ # HTML templates
-
-│ ├── index.html # Homepage
-
-│ ├── post.html # Single post view
-
-│ ├── make-post.html # Create/Edit post form
-
-│ ├── about.html # About page
-
-│ ├── contact.html # Contact form
-
-│ ├── header.html # Shared header
-
-│ └── footer.html # Shared footer
-
-│── static/ # CSS, JS, and images
-
-│── instance/ # SQLite database storage
+* **blog-last** → Full-featured Flask blog (CRUD, SQLAlchemy, WTForms, CKEditor)
+* **Smart-Review-Analyzer** → Review analysis & insights tool
+* **cafe-api-Rest-api-sample** → REST API with Flask + SQLite
+* **my-top-movies** → Web app with form handling & persistence
 
 ---
 
-## 🚀 Getting Started
+### 🤖 Automation & APIs
 
-### 1. Clone the repository
-    bash
-    git clone https://github.com/bunyaminenis/blog-last.git
-    cd blog-last
-    
-### 2. Create and activate a virtual environment
+Projects focused on automation, scraping, and external integrations.
 
-    python -m venv venv
-    source venv/bin/activate   # On Mac/Linux
-    venv\Scripts\activate      # On Windows
-
-### 3. Install dependencies
-
-    pip install flask flask-bootstrap flask-sqlalchemy flask-wtf flask-ckeditor
-
-### 4. Run the application
-
-    python main.py
-
-Visit the app in your browser at http://127.0.0.1:5003
+* **amazon-price-track** → Tracks product prices & sends alerts
+* **twitter-internet-speed-complain-bot** → Automated complaint bot using Selenium
+* **zillow-data-farm** → Data scraping + automation workflow
+* **exercise-track-app** → Nutritionix + Google Sheets API integration
+* **create-spotify-playlist** → Billboard scraping + Spotify API
 
 ---
 
+### 🎮 Games (Python Fundamentals)
 
-📜 License
+Projects built to strengthen core programming logic.
 
-This project is licensed under the MIT License.
-  
+* **pong**
+* **snake-game**
+* **quiz-game**
+* **turtle-crossing-game**
+* **CoffeeMachine**
+
+---
+
+### 📘 Learning & Practice
+
+Smaller experiments and foundational exercises.
+
+* Various tutorial-based implementations
+* Incremental improvements over time
+
+---
+
+## 🛠️ Tech Stack
+
+* **Languages:** Python
+* **Backend:** Flask, SQLAlchemy
+* **Frontend:** HTML, CSS, Bootstrap
+* **Automation:** Selenium, BeautifulSoup
+* **APIs:** REST, external APIs (Spotify, Nutritionix, etc.)
+* **Database:** SQLite
+
+---
+
+## 📈 What This Repo Shows
+
+This repository is not just a collection of projects — it reflects:
+
+* 📚 Continuous learning and iteration
+* 🧠 Problem-solving through real implementations
+* ⚙️ Experience with APIs, automation, and backend systems
+* 🏗️ Ability to structure and organize growing codebases
+
+---
+
+## 🔗 Links
+
+* GitHub: https://github.com/bunyaminenis
+* LinkedIn: https://www.linkedin.com/in/bünyamin-enis-kara-67319415b
+
+---
+
+## 📌 Notes
+
+Each project is contained in its own folder and preserves its original development history.
+
+---
+
+⭐ If you're reviewing this repository, feel free to explore any project — feedback is always welcome!
+
+> ⚠️ This repository is structured as a monorepo.  
+> Each project was originally developed in separate repositories and later consolidated while preserving commit history.
