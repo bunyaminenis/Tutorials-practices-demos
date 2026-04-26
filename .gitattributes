@@ -1,12 +1,12 @@
-# Vendor libraries - exclude from language stats
+# Vendored libraries — don't count toward language stats
+*.min.css linguist-vendored
+*.min.js linguist-vendored
 **/static/css/bootstrap*.css linguist-vendored
-**/static/css/bootstrap*.min.css linguist-vendored
 **/static/js/bootstrap*.js linguist-vendored
 **/static/js/jquery*.js linguist-vendored
 **/static/ckeditor/** linguist-vendored
 **/static/vendor/** linguist-vendored
-**/static/assets/** linguist-vendored
+**/static/assets/vendor/** linguist-vendored
 
-# Catch common minified files anywhere
-*.min.css linguist-vendored
-*.min.js linguist-vendored
+# Optionally: hide your own CSS too if you didn't write much of it
+# *.css linguist-detectable=false
