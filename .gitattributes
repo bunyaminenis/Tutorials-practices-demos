@@ -1,0 +1,4 @@
+*.ipynb linguist-language=Python
+*.ipynb linguist-detectable=true
+*.css linguist-vendored=true
+*.html linguist-vendored=true
