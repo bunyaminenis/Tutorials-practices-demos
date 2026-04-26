@@ -1,4 +1,11 @@
 *.ipynb linguist-language=Python
 *.ipynb linguist-detectable=true
-*.css linguist-vendored=true
-*.html linguist-vendored=true
+
+# Bootstrap and other vendored web assets
+**/static/** linguist-vendored=true
+**/static/css/** linguist-vendored=true
+**/static/js/** linguist-vendored=true
+**/static/bootstrap*/** linguist-vendored=true
+
+# Flask templates often extend Bootstrap layouts — mostly boilerplate
+**/templates/** linguist-vendored=true
