@@ -1,12 +1,54 @@
-# Vendored libraries — don't count toward language stats
-*.min.css linguist-vendored
-*.min.js linguist-vendored
-**/static/css/bootstrap*.css linguist-vendored
-**/static/js/bootstrap*.js linguist-vendored
-**/static/js/jquery*.js linguist-vendored
-**/static/ckeditor/** linguist-vendored
-**/static/vendor/** linguist-vendored
-**/static/assets/vendor/** linguist-vendored
+# ============================================================
+# Language stats configuration for GitHub Linguist
+# Goal: Make this repo correctly show as a Python project
+# ============================================================
 
-# Optionally: hide your own CSS too if you didn't write much of it
-# *.css linguist-detectable=false
+# --- Vendor libraries (Bootstrap, jQuery, CKEditor, etc.) ---
+# These come from the Angela Yu course starter files and 
+# bundled assets — not code I wrote.
+
+# Catch all minified files anywhere in the repo
+*.min.css     linguist-vendored
+*.min.js      linguist-vendored
+*.min.map     linguist-vendored
+
+# Bootstrap (used in blog-last, blog-start, blog-upgraded, cafe-api, my-top-movies)
+**/static/css/bootstrap*    linguist-vendored
+**/static/js/bootstrap*     linguist-vendored
+**/static/js/jquery*        linguist-vendored
+**/static/js/popper*        linguist-vendored
+
+# Common static asset folders that hold third-party files
+**/static/vendor/**         linguist-vendored
+**/static/assets/vendor/**  linguist-vendored
+**/static/assets/css/**     linguist-vendored
+**/static/assets/js/**      linguist-vendored
+**/static/assets/fonts/**   linguist-vendored
+**/static/fonts/**          linguist-vendored
+**/static/lib/**            linguist-vendored
+**/static/libs/**           linguist-vendored
+
+# CKEditor (used in blog-last for the rich text editor)
+**/ckeditor/**              linguist-vendored
+**/static/ckeditor/**       linguist-vendored
+
+# Bootstrap "Clean Blog" / "Start Bootstrap" themes 
+# (commonly used in the 100 Days of Code blog projects)
+**/static/css/clean-blog*   linguist-vendored
+**/static/css/styles.css    linguist-vendored
+
+# --- Course / tutorial starter files ---
+# Mark anything that came from the course as not your own work
+**/templates/header.html    linguist-generated
+**/templates/footer.html    linguist-generated
+
+# --- Documentation ---
+*.md                        linguist-documentation
+
+# ============================================================
+# If the language bar STILL looks wrong after the above,
+# uncomment the lines below to fully suppress CSS/HTML/JS:
+# ============================================================
+# *.css   linguist-detectable=false
+# *.html  linguist-detectable=false
+# *.js    linguist-detectable=false
